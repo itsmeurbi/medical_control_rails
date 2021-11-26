@@ -1,3 +1,11 @@
+Style/NumericLiterals:
+  Exclude:
+    - 'db/schema.rb'
+
+Layout/EmptyLinesAroundBlockBody:
+  Exclude:
+    - 'db/schema.rb'
+
 Layout/ArgumentAlignment:
   Exclude:
     - 'bin/webpack'
