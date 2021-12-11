@@ -24,8 +24,8 @@ ActiveRecord::Schema.define(version: 2021_12_05_070359) do
     t.string "primary_dx"
     t.string "initial_dx"
     t.string "final_dx"
-    t.string "medical_history", null: false
-    t.string "surgical_history", null: false
+    t.string "medical_history"
+    t.string "surgical_history"
     t.string "treatment"
   end
 
