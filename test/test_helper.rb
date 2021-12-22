@@ -14,3 +14,8 @@ class ActiveSupport::TestCase
 
   # Add more helper methods to be used by all tests here...
 end
+
+SimpleCov.start do
+  add_filter '/test/'
+  add_filter '/config/'
+end
