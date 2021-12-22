@@ -1,5 +1,8 @@
 require 'simplecov'
-SimpleCov.start
+SimpleCov.start do
+  add_filter '/test/'
+  add_filter '/config/'
+end
 
 ENV['RAILS_ENV'] ||= 'test'
 require_relative "../config/environment"
@@ -13,9 +16,4 @@ class ActiveSupport::TestCase
   fixtures :all
 
   # Add more helper methods to be used by all tests here...
-end
-
-SimpleCov.start do
-  add_filter '/test/'
-  add_filter '/config/'
 end
