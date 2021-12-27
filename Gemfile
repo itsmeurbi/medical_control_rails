@@ -14,6 +14,7 @@ gem 'importmap-rails'
 gem 'rubocop', require: false
 gem 'sass-rails', '>= 6'
 gem 'stimulus-rails', '~> 1.0', '>= 1.0.2'
+gem 'tailwindcss-rails', '~> 2.0'
 gem 'turbo-rails', '~> 1.0'
 
 # Use Active Storage variant
